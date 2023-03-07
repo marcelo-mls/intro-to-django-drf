@@ -25,9 +25,9 @@ pip install -r requirements.txt
 python3 manage.py migrate
 ```
 - Acesse as rotas da API
-- [127.0.0.1:8000/api/](http://127.0.0.1:8000/api/)
-- [127.0.0.1:8000/api/users/](http://127.0.0.1:8000/api/users/)
-- [127.0.0.1:8000/api/tasks/](http://127.0.0.1:8000/api/tasks/)
+    - [127.0.0.1:8000/api/](http://127.0.0.1:8000/api/)
+    - [127.0.0.1:8000/api/users/](http://127.0.0.1:8000/api/users/)
+    - [127.0.0.1:8000/api/tasks/](http://127.0.0.1:8000/api/tasks/)
 
 
 ## Passo a passo
