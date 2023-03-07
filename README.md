@@ -64,14 +64,14 @@ pip install markdown
 pip install django-filter
 ```
 
-### 3. Criar [`requirements.txt`]()
+### 3. Criar [`requirements.txt`](https://github.com/marcelo-mls/intro-to-django-drf/blob/main/requirements.txt)
 3.1 - Criando o arquivo que registra as dependências do projeto
 ```sh
 pip freeze > requirements.txt
 ```
 
 ### 4. Inicialização
-4.1 - Iniciando projeto na pasta [`config`]()
+4.1 - Iniciando projeto na pasta [`config`](https://github.com/marcelo-mls/intro-to-django-drf/tree/main/config)
 ```sh
 django-admin startproject config .
 ```
@@ -86,13 +86,13 @@ python3 manage.py migrate
 python3 manage.py createsuperuser
 ```
 
-4.4 - Iniciando a aplicação/modulo com o nome [`todo`]()
+4.4 - Iniciando a aplicação/modulo com o nome [`todo`](https://github.com/marcelo-mls/intro-to-django-drf/tree/main/todo)
 ```sh
 django-admin startapp todo
 ```
 
 ### 5. Configurações
-5.1 - Inserindo modulos no arquivo de configurações
+5.1 - Inserindo modulos no arquivo de configurações. Em: [`config/settings.py`](https://github.com/marcelo-mls/intro-to-django-drf/blob/main/config/settings.py)
 ```py
 #  /config/settings.py
 
@@ -110,7 +110,7 @@ INSTALLED_APPS = [
 
 ### 6. Desenvolvimento
 
-6.1 - Criando as models `User` e `Task` no modulo [`/todo/models.py`]()
+6.1 - Criando as models `User` e `Task` no modulo [`/todo/models.py`](https://github.com/marcelo-mls/intro-to-django-drf/blob/main/todo/models.py)
 
 6.1.1 - Realizando as migrações das models
 ```sh
@@ -140,15 +140,15 @@ x = Task(title="Criar README.md")
 x.save()
 ```
 
-6.2 - Registrando as models criadas no modulo [`/todo/admin.py`]()
+6.2 - Registrando as models criadas no modulo [`/todo/admin.py`](https://github.com/marcelo-mls/intro-to-django-drf/blob/main/todo/admin.py)
 
-6.3 - **Criando** e configurando um modulo serializador para converter os objetos `python` para `json` (e vice-versa). Desenvolvido em: [`/todo/serializer.py`]()
+6.3 - **Criando** e configurando um modulo serializador para converter os objetos `python` para `json` (e vice-versa). Desenvolvido em: [`/todo/serializer.py`](https://github.com/marcelo-mls/intro-to-django-drf/blob/main/todo/serializer.py)
 
-6.4 - Configurando as views em [`/todo/views.py`]()
+6.4 - Configurando as views em [`/todo/views.py`](https://github.com/marcelo-mls/intro-to-django-drf/blob/main/todo/views.py)
 
-6.5 - **Criando** e configurando as rotas em: [`/todo/urls.py`]()
+6.5 - **Criando** e configurando as rotas em: [`/todo/urls.py`](https://github.com/marcelo-mls/intro-to-django-drf/blob/main/todo/urls.py)
 
-6.6 - Informando para o projeto principal as rotas que acabaram de ser criadas. Desenvolvido em: [`/config/urls.py`]()
+6.6 - Informando para o projeto principal as rotas que acabaram de ser criadas. Desenvolvido em: [`/config/urls.py`](https://github.com/marcelo-mls/intro-to-django-drf/blob/main/config/urls.py)
 
 <br />
 
