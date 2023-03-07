@@ -1,12 +1,10 @@
-# API Django + DRF
+# API Python com Django + DRF
 > Primeiros passos com Django & Django Rest Framework
 
 ## Objetivo
-Este repositório registra meu primeiro contato com [`Django`](https://www.djangoproject.com/) & [`Django Rest Framework (DRF)`](https://www.django-rest-framework.org/). Ele cria uma `API` bastante simples que simula um **to-do list**.
+Registrar o meu primeiro contato com [`Django`](https://www.djangoproject.com/) & [`Django Rest Framework (DRF)`](https://www.django-rest-framework.org/). A intenção foi criar uma `API` simples, que simula um **to-do list**. A aplicação possui duas `models` (não vinculadas) uma para Usuários e outra para Tarefas. Para desenvolver as `models` foi utilizado o `SQLite3` que já vem configurado por padrão com o framework.
 
-Possui duas `models` (não vinculadas) uma para Usuários e outra para Tarefas. Para criar as `models` utilizei o `SQLite3` que já vem configurado por padrão com o framework.
-
-Este **README** apresenta um passo a passo de tudo que foi feito (do zero) para atingir o objetivo final, que foi criar a `API`.
+Este **README** (que possui finalidade de aprendizado/tutorial) contém apenas uma descrição de tudo que foi feito (do zero) para desenvolver essa `API`.
 
 ## Como usar
 
