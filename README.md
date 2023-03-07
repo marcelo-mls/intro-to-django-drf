@@ -22,7 +22,7 @@ pip install -r requirements.txt
 ```
 - Inicie o Servidor
 ```sh
-python3 manage.py migrate
+python3 manage.py runserver
 ```
 - Acesse as rotas da API
     - [127.0.0.1:8000/api/](http://127.0.0.1:8000/api/)
