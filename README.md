@@ -20,6 +20,10 @@ python3 -m venv .venv && source .venv/bin/activate
 ```sh
 pip install -r requirements.txt
 ```
+- Faça a migração das models
+```sh
+python3 manage.py migrate
+```
 - Inicie o Servidor
 ```sh
 python3 manage.py runserver
